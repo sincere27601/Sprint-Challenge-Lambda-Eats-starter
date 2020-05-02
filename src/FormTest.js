@@ -1,4 +1,6 @@
-describe("Testing the pizza routes and form", function () {
+/*jshint ignore:start*/
+
+    describe("Testing the pizza routes and form", function () {
     beforeEach(function () {
         cy.visit("http://localhost:3000/");
     });

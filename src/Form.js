@@ -4,7 +4,7 @@ import axios from 'axios';
 import * as yup from "yup";
 
 //form schema
-const formSchema = yup.object().shape({
+    const formSchema = yup.object().shape({
     name: yup.string().required("Name is a required field."),
     size: yup.string().required("Must Select a Size"),
     pepperoni: yup.boolean().defined(),
